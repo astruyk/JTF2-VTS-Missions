@@ -22,15 +22,18 @@
 
 #include "vhs\vhs_dialog.hpp"
 
+#include "outlw_magRepack\MagRepack_config.hpp"
+
+
 //Specific version
 
 
 
 
-onLoadName = "Virtual Training Space 4.0";		
+onLoadName = "JTF2 Dynamic Missions";		
 OnLoadMissionTime = 0;
 OnLoadMission = "'There's nothing better than a good game master and there is nothing worse than a bad game master' You...";
-author = "Letranger";
+author = "Letranger & Tweaked by NaCH + Anton";
 loadScreen = "vtstitle.jpg";
 
 respawn = 3;
@@ -90,7 +93,7 @@ class Params
 		title=		"Equipment availability :"; 
 		texts[]=	{"No weapon at start and on class change, equipement is lost at respawn.","Standard role weapons at spawn, class change, and you respawn with your last equipement."};
 		values[]= 	{0,1}; 
-		default=	1; 
+		default=	0; 
 	};
     class ReviveSetup
 	{
@@ -98,7 +101,7 @@ class Params
 		title=		"Respawn / Revive Options :"; 
 		texts[]=	{"Game basic respawn (Revive Off)","VTS: Revive or Respawn : Everyone can revive","VTS: Revive or Respawn : Only medic can revive","VTS: Revive - No respawn : Everyone can revive","VTS: Revive - No respawn : Only medic can revive"};
 		values[]= 	{0,1,2,3,4}; 
-		default=	1; 
+		default=	0; 
 	};		
     class ReviveNb
 	{
@@ -106,7 +109,7 @@ class Params
 		title=		"Number of Revives :"; 
 		texts[]=	{"Infinite - Revive-Cadet","20 - Revive-Easy ","10 - Revive-Normal","6  - Revive-Hard","3  - Revive-Extreme","1  - Revive-Crazy","0  - No revive-Realistic"};
 		values[]= 	{9999,20,10,6,3,1,0}; 
-		default=	3; 
+		default=	9999; 
 	};
     class ReviveTimeout
 	{
@@ -123,7 +126,7 @@ class Params
 		title=		"View distance:"; 
 		texts[]=	{"1000m","1500m","2000m","2500m","3000m","3500m","4000m","4500m","5000m","6000m","7000m","8000m","10000m"};
 		values[]=	{1000,1500,2000,2500,3000,3500,4000,4500,5000,6000,7000,8000,10000}; 
-		default=	2500; 
+		default=	3000; 
 	};
 	class ShowGrass
 	{//paramsArray[10]
@@ -179,7 +182,7 @@ class Params
 		title= 		"Allow Class switch at base :";
         texts[]= 	{"Yes, players can change their unit ability","No"};
         values[]= 	{1,0};
-        default=	1;
+        default=	0;
   }; 
   class AllowGroupChange
 	{//paramsArray[18]
@@ -200,7 +203,7 @@ class Params
 		title= 		"Allow teleportation from Base to your squad :";
         texts[]= 	{"Yes, players can teleport to their squad from the base","No"};
         values[]= 	{1,0};
-        default=	1;
+        default=	0;
   };
   class AllowPlayersName
 	{//paramsArray[21]
@@ -257,14 +260,14 @@ class Params
 		title= 		"Shops : All items available";
         texts[]= 	{"No, the shops start empty","Yes, everything is in quantity in the shops"};
         values[]= 	{0,1};
-        default=	1;
+        default=	0;
   };  
   class shopunlockmethod
 	{//paramsArray[29]
 		title= 		"Shops : Items unlock method";
         texts[]= 	{"By Game Master only","By Game Master and Players sales in the shops"};
         values[]= 	{0,1};
-        default=	1;
+        default=	0;
   };
     class shopfreeloadouttype
 	{//paramsArray[30]
@@ -299,7 +302,7 @@ class Params
 		title= 		"Lock Game Master slots after launch :";
         texts[]= 	{"No, anyone can switch to those slots during the mission","Yes, slots will be reserved to GMs"};
         values[]= 	{1,0};
-        default=	0;
+        default=	1;
   };
   class everyoneisgm
 	{//paramsArray[35]

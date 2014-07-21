@@ -11,7 +11,8 @@ class Mission
 		"a3_characters_f_gamma",
 		"A3_Misc_F_Helpers",
 		"A3_Structures_F_Mil_Cargo",
-		"a3_map_altis"
+		"a3_map_altis",
+		"X39_MedSys_Scripting"
 	};
 	addOnsAuto[]=
 	{
@@ -21,6 +22,7 @@ class Mission
 		"A3_Characters_F_INDEP",
 		"A3_Characters_F_Civil",
 		"a3_characters_f_gamma",
+		"X39_MedSys_Scripting",
 		"A3_Misc_F_Helpers",
 		"A3_Structures_F_Mil_Cargo",
 		"a3_map_altis"
@@ -45,7 +47,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=44;
+		items=45;
 		class Item0
 		{
 			side="LOGIC";
@@ -4375,6 +4377,58 @@ class Mission
 				};
 			};
 		};
+		class Item44
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={10874.535,27.583445,13160.154};
+					class args
+					{
+						items=5;
+						class Item0
+						{
+							value="0";
+							parentCls="X39_MedSys_Module_BasicModule";
+							typeName="DialogOptions_EnableHealthView";
+						};
+						class Item1
+						{
+							value="0";
+							parentCls="X39_MedSys_Module_BasicModule";
+							typeName="DialogOptions_EnableBloodView";
+						};
+						class Item2
+						{
+							value="0";
+							parentCls="X39_MedSys_Module_BasicModule";
+							typeName="DialogOptions_EnableTourniquetView";
+						};
+						class Item3
+						{
+							value="0";
+							parentCls="X39_MedSys_Module_BasicModule";
+							typeName="DialogOptions_EnableLegView";
+						};
+						class Item4
+						{
+							value="1";
+							parentCls="X39_MedSys_Module_BasicModule";
+							typeName="DialogOptions_EnableMorphineView";
+						};
+					};
+					id=323;
+					side="LOGIC";
+					vehicle="X39_MedSys_Module_BasicModule";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
 	};
 	class Vehicles
 	{
@@ -4382,7 +4436,7 @@ class Mission
 		class Item0
 		{
 			position[]={160.261,0.058538925,169.15027};
-			id=323;
+			id=324;
 			side="EMPTY";
 			vehicle="Sign_Sphere10cm_F";
 			skill=0.60000002;
@@ -4392,7 +4446,7 @@ class Mission
 		class Item1
 		{
 			position[]={162.1288,-0.074173175,173.10486};
-			id=324;
+			id=325;
 			side="EMPTY";
 			vehicle="Sign_Sphere10cm_F";
 			skill=0.60000002;
@@ -4402,7 +4456,7 @@ class Mission
 		class Item2
 		{
 			position[]={157.55415,0.13268159,168.5907};
-			id=325;
+			id=326;
 			side="EMPTY";
 			vehicle="Sign_Sphere10cm_F";
 			skill=0.60000002;
@@ -4412,7 +4466,7 @@ class Mission
 		class Item3
 		{
 			position[]={158.51857,0.040362142,171.99011};
-			id=326;
+			id=327;
 			side="EMPTY";
 			vehicle="Sign_Sphere10cm_F";
 			skill=0.60000002;
@@ -4423,7 +4477,7 @@ class Mission
 		{
 			position[]={138.38805,-0.030785292,83.69519};
 			azimut=-633.46899;
-			id=327;
+			id=328;
 			side="EMPTY";
 			vehicle="Land_Cargo_House_V1_F";
 			leader=1;
@@ -4435,7 +4489,7 @@ class Mission
 		{
 			position[]={85.097305,-0.072644129,83.944206};
 			azimut=-490.71799;
-			id=328;
+			id=329;
 			side="EMPTY";
 			vehicle="Land_Cargo_House_V1_F";
 			leader=1;
@@ -4447,7 +4501,7 @@ class Mission
 		{
 			position[]={133.86943,-0.1395499,135.38562};
 			azimut=-490.71799;
-			id=329;
+			id=330;
 			side="EMPTY";
 			vehicle="Land_Cargo_House_V1_F";
 			leader=1;
@@ -4459,7 +4513,7 @@ class Mission
 		{
 			position[]={90.289841,0.1326555,132.5321};
 			azimut=-490.71799;
-			id=330;
+			id=331;
 			side="EMPTY";
 			vehicle="Land_Cargo_House_V1_F";
 			leader=1;
@@ -4471,7 +4525,7 @@ class Mission
 		{
 			position[]={160.743,0.065014444,168.28601};
 			azimut=319.198;
-			id=331;
+			id=332;
 			side="EMPTY";
 			vehicle="Sign_Sphere10cm_F";
 			skill=0.60000002;

@@ -31,8 +31,6 @@ vts_debug=false;
 //2=s2c (seems to be unstable)
 vts_nettype=1;
 
-
-
 //Run custom init script
 [] execvm "mods\custom_init.sqf";
 
@@ -820,5 +818,8 @@ if (isserver) then
 //Init UPSMON data (Server / HC check are inside)
 [] execvm "scripts\Init_UPSMON.sqf";
 
+[] execVM "outlw_magRepack\MagRepack_init_sv.sqf";
+
+_igiload = execVM "IgiLoad\IgiLoadInit.sqf";
 
 if (true) exitWith {};
