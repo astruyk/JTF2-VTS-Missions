@@ -2760,6 +2760,9 @@ vts_stripunitweapons=
 		_unittostrip removeWeapon "NVGoggles";
 	};
 	removeAllItems _unittostrip;
+	_unittostrip addWeapon "ItemMap";
+	_unittostrip addWeapon "ItemWatch";
+	_unittostrip addWeapon "ItemCompass";
 };
 
 //Get the nearest objects in 2D
