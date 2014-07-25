@@ -71,12 +71,12 @@ class Mission
 		"A3_Soft_F_Quadbike",
 		"A3_Soft_F_MRAP_01",
 		"X39_MedSys_Items",
-		"A3_Weapons_F_Ammoboxes",
 		"A3_Structures_F_Mil_BagBunker",
 		"A3_Structures_F_Mil_Shelters",
 		"A3_Weapons_F",
 		"A3_Static_F_Gamma",
 		"a3_static_f",
+		"A3_Weapons_F_Ammoboxes",
 		"A3_Static_F_Mortar_01",
 		"a3_map_altis"
 	};
@@ -7501,7 +7501,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=50;
+		items=49;
 		class Item0
 		{
 			position[]={160.261,0.058538925,169.15027};
@@ -7807,76 +7807,68 @@ class Mission
 		};
 		class Item29
 		{
-			position[]={19727.426,83.821358,12359.561};
-			azimut=179.50999;
-			id=483;
-			side="EMPTY";
-			vehicle="B_supplyCrate_F";
-			leader=1;
-			skill=0.60000002;
-			text="supply_2";
-			init="this removeItems ""FirstAidKit"";";
-		};
-		class Item30
-		{
-			position[]={19723.203,84.313911,12356.153};
-			azimut=115.542;
-			id=484;
-			side="EMPTY";
-			vehicle="B_supplyCrate_F";
-			leader=1;
-			skill=0.60000002;
-			text="supply_1";
-			init="this removeItems ""FirstAidKit"";";
-		};
-		class Item31
-		{
 			position[]={19741.014,81.794273,12377.056};
 			azimut=-129.31342;
-			id=485;
+			id=483;
 			side="EMPTY";
 			vehicle="Land_BagBunker_Small_F";
 			skill=0.60000002;
 		};
-		class Item32
+		class Item30
 		{
 			position[]={19698.201,85.045639,12362.318};
 			azimut=-59.78244;
-			id=486;
+			id=484;
 			side="EMPTY";
 			vehicle="CamoNet_BLUFOR_open_F";
 			skill=0.60000002;
 		};
-		class Item33
+		class Item31
 		{
 			position[]={19725.945,84.250183,12356.91};
 			azimut=-26.723429;
-			id=487;
+			id=485;
 			side="EMPTY";
 			vehicle="CamoNet_BLUFOR_open_F";
 			skill=0.60000002;
 		};
-		class Item34
+		class Item32
 		{
 			position[]={19743.127,81.806152,12376.267};
 			azimut=404.81955;
-			id=488;
+			id=486;
 			side="EMPTY";
 			vehicle="CamoNet_BLUFOR_F";
 			skill=0.60000002;
 		};
-		class Item35
+		class Item33
 		{
 			position[]={19696.387,86.340134,12347.203};
 			azimut=235;
-			id=489;
+			id=487;
 			side="EMPTY";
 			vehicle="CamoNet_BLUFOR_big_F";
 			skill=0.60000002;
 		};
-		class Item36
+		class Item34
 		{
 			position[]={19701.711,85.138641,12357.999};
+			id=488;
+			side="EMPTY";
+			vehicle="placed_chemlight_red";
+			skill=0.60000002;
+		};
+		class Item35
+		{
+			position[]={19749.254,81.648621,12376.448};
+			id=489;
+			side="EMPTY";
+			vehicle="placed_chemlight_red";
+			skill=0.60000002;
+		};
+		class Item36
+		{
+			position[]={19719.742,84.40892,12356.545};
 			id=490;
 			side="EMPTY";
 			vehicle="placed_chemlight_red";
@@ -7884,7 +7876,7 @@ class Mission
 		};
 		class Item37
 		{
-			position[]={19749.254,81.648621,12376.448};
+			position[]={19715.564,85.137489,12374.844};
 			id=491;
 			side="EMPTY";
 			vehicle="placed_chemlight_red";
@@ -7892,7 +7884,7 @@ class Mission
 		};
 		class Item38
 		{
-			position[]={19719.742,84.40892,12356.545};
+			position[]={19744.303,81.068222,12382.247};
 			id=492;
 			side="EMPTY";
 			vehicle="placed_chemlight_red";
@@ -7900,7 +7892,7 @@ class Mission
 		};
 		class Item39
 		{
-			position[]={19715.564,85.137489,12374.844};
+			position[]={19737.881,83.586716,12365.56};
 			id=493;
 			side="EMPTY";
 			vehicle="placed_chemlight_red";
@@ -7908,7 +7900,7 @@ class Mission
 		};
 		class Item40
 		{
-			position[]={19744.303,81.068222,12382.247};
+			position[]={19728.434,83.339622,12363.081};
 			id=494;
 			side="EMPTY";
 			vehicle="placed_chemlight_red";
@@ -7916,7 +7908,7 @@ class Mission
 		};
 		class Item41
 		{
-			position[]={19737.881,83.586716,12365.56};
+			position[]={19704.547,84.271988,12365.328};
 			id=495;
 			side="EMPTY";
 			vehicle="placed_chemlight_red";
@@ -7924,7 +7916,7 @@ class Mission
 		};
 		class Item42
 		{
-			position[]={19728.434,83.339622,12363.081};
+			position[]={19710.291,85.41391,12350.257};
 			id=496;
 			side="EMPTY";
 			vehicle="placed_chemlight_red";
@@ -7932,75 +7924,70 @@ class Mission
 		};
 		class Item43
 		{
-			position[]={19704.547,84.271988,12365.328};
-			id=497;
-			side="EMPTY";
-			vehicle="placed_chemlight_red";
-			skill=0.60000002;
-		};
-		class Item44
-		{
-			position[]={19710.291,85.41391,12350.257};
-			id=498;
-			side="EMPTY";
-			vehicle="placed_chemlight_red";
-			skill=0.60000002;
-		};
-		class Item45
-		{
 			position[]={19741.338,81.785263,12377.304};
 			azimut=52.3745;
-			id=499;
+			id=497;
 			side="EMPTY";
 			vehicle="B_HMG_01_high_F";
 			skill=0.60000002;
-			init="this disableTIEquipment true; this setVehicleAmmo 0.5;";
+			init="this disableTIEquipment true; this setVehicleAmmo 0.4;";
 		};
-		class Item46
+		class Item44
 		{
 			position[]={19742.035,81.654678,12402.959};
 			azimut=45.597801;
-			id=500;
+			id=498;
 			side="EMPTY";
 			vehicle="B_Truck_01_transport_F";
 			skill=0.60000002;
 			text="hemmt_1_1";
 			init="this removeItems ""FirstAidKit"";";
 		};
-		class Item47
+		class Item45
 		{
-			position[]={19725.295,84.037888,12357.882};
+			position[]={19723.654,84.369064,12355.571};
 			azimut=326.37665;
-			id=501;
+			id=499;
 			side="EMPTY";
 			vehicle="Box_NATO_AmmoOrd_F";
 			leader=1;
 			skill=0.60000002;
 		};
-		class Item48
+		class Item46
 		{
 			position[]={19712.592,84.870819,12355.372};
 			azimut=-27.715107;
-			id=502;
+			id=500;
 			side="EMPTY";
 			vehicle="B_Mortar_01_F";
 			leader=1;
 			skill=0.60000002;
 		};
-		class Item49
+		class Item47
 		{
 			position[]={19697.346,86.228897,12347.67};
 			azimut=46.731998;
-			id=503;
+			id=501;
 			side="EMPTY";
 			vehicle="B_MRAP_01_hmg_F";
 			skill=0.60000002;
 			init="this setVehicleAmmo 0.3; this disableTIEquipment true; this removeItems ""FirstAidKit"";";
 		};
+		class Item48
+		{
+			position[]={19727.461,84.196266,12358.161};
+			azimut=-19.753479;
+			id=502;
+			side="EMPTY";
+			vehicle="B_Quadbike_01_F";
+			skill=0.60000002;
+			text="quad_2_1";
+			init="this removeItems ""FirstAidKit"";";
+		};
 	};
 	class Markers
 	{
-		items=40;
+		items=46;
 		class Item0
 		{
 			position[]={153.12016,0.0071325675,191.88123};
@@ -8294,6 +8281,42 @@ class Mission
 			name="ammo_cache";
 			text="Ammo Cache";
 			type="mil_circle";
+		};
+		class Item40
+		{
+			position[]={19824.441,77.222206,12342.185};
+			name="route_1_21_1";
+			type="mil_dot";
+		};
+		class Item41
+		{
+			position[]={19835.443,79.126534,12236.551};
+			name="route_1_21_2";
+			type="mil_dot";
+		};
+		class Item42
+		{
+			position[]={19822.975,76.226357,12081.77};
+			name="route_1_21_3";
+			type="mil_dot";
+		};
+		class Item43
+		{
+			position[]={19832.734,74.085617,11915.607};
+			name="route_1_21_4";
+			type="mil_dot";
+		};
+		class Item44
+		{
+			position[]={19867.469,70.581139,11784.41};
+			name="route_1_21_5";
+			type="mil_dot";
+		};
+		class Item45
+		{
+			position[]={19889.455,69.11219,11702.187};
+			name="route_1_21_6";
+			type="mil_dot";
 		};
 	};
 	class Sensors
