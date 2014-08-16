@@ -30,7 +30,7 @@
 
 
 
-onLoadName = "JTF2 Dynamic Missions";		
+onLoadName = "JTF2 VTS Missions - AGM + TFAR";		
 OnLoadMissionTime = 0;
 OnLoadMission = "'There's nothing better than a good game master and there is nothing worse than a bad game master' You...";
 author = "Letranger & Tweaked by NaCH + Anton";
