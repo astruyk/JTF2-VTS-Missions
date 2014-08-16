@@ -52,7 +52,7 @@ UPSMON_groupFormation	= ["COLUMN","STAG COLUMN","WEDGE","ECH LEFT","ECH RIGHT","
 
 //% of chance to use smoke by team members when someone wounded or killed in the group in %(default 13 & 35).
 // set both to 0 -> to switch off this function 
-UPSMON_USE_SMOKE = 15; // org 13: decreased while AI is popping smoke a bit too often
+UPSMON_USE_SMOKE = 0; // org 13: decreased while AI is popping smoke a bit too often
 
 
 //Height that heli will fly this input will be randomised in a 10%
