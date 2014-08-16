@@ -8,7 +8,7 @@ echo No island specified, assuming Altis.
 SET MISSION_ISLAND=Altis
 :done
 @echo on
-set BASE_FILE_NAME=JTF2_Dynamic_VTS_AGM_TFAR
+set BASE_FILE_NAME=JTF2_Dynamic_VTS_AGM
 ..\lib\PBOManager_v_1_4_beta\PBOConsole.exe -pack ..\mission ..\bin\%BASE_FILE_NAME%.%MISSION_ISLAND%.pbo
 if exist ..\bin\%BASE_FILE_NAME%.%MISSION_ISLAND%.pbo.bak del ..\bin\%BASE_FILE_NAME%.%MISSION_ISLAND%.pbo.bak
 @echo off
