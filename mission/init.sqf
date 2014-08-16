@@ -816,7 +816,7 @@ if (isserver) then
 };
 
 //Init UPSMON data (Server / HC check are inside)
-[] execvm "scripts\Init_UPSMON.sqf";
+//[] execvm "scripts\Init_UPSMON.sqf";
 
 //[] execVM "outlw_magRepack\MagRepack_init_sv.sqf";
 
