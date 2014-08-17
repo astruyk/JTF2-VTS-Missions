@@ -4395,7 +4395,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={14141.854,0,11612.514};
+					position[]={14190.767,0,11654.039};
 					class args
 					{
 						items=7;
@@ -4459,7 +4459,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={14164.466,-0.058551036,11824.914};
+					position[]={14191.475,0,11814.392};
 					class args
 					{
 						items=1;
@@ -4487,7 +4487,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={14169.209,-0.096684396,11892.485};
+					position[]={14192.84,0,11893.368};
 					class args
 					{
 						items=1;
@@ -4515,7 +4515,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={14164.466,-0.018749654,11776.31};
+					position[]={14191.392,0,11762.515};
 					class args
 					{
 						items=10;
@@ -4539,7 +4539,7 @@ class Mission
 						};
 						class Item3
 						{
-							value="0";
+							value="1";
 							parentCls="AGM_ModuleMedical";
 							typeName="AllowNonmedics";
 						};
@@ -4557,13 +4557,13 @@ class Mission
 						};
 						class Item6
 						{
-							value="0";
+							value="1";
 							parentCls="AGM_ModuleMedical";
 							typeName="PreventInstaDeath";
 						};
 						class Item7
 						{
-							value="0";
+							value="1";
 							parentCls="AGM_ModuleMedical";
 							typeName="PreventDeathWhileUnconscious";
 						};
@@ -4597,7 +4597,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={14165.651,-0.15061402,11724.147};
+					position[]={14190.024,0,11710.905};
 					class args
 					{
 						items=3;
@@ -4637,7 +4637,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={14165.653,0.0082785115,11861.594};
+					position[]={14193.021,0,11853.242};
 					id=328;
 					side="LOGIC";
 					vehicle="AGM_ModuleLSDVehicles";
