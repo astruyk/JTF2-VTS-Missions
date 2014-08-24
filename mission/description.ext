@@ -295,7 +295,7 @@ class Params
 		title= 		"Enable Game Master assistant slot :";
         texts[]= 	{"False","True"};
         values[]= 	{0,1};
-        default=	0;
+        default=	1;
   }; 
   class AllowMultipleGM
   {//paramsArray[34]
