@@ -2,6 +2,9 @@
 T_INIT = false;
 T_Server = false; T_Client = false; T_JIP = false;
 
+// Some custom unit definitions for Ares
+[] execVM "Ares_Add_CAF_AG_Units.sqf";
+
 if (playersNumber east + playersNumber west + playersNumber resistance + playersNumber civilian > 0) then { T_MP = true } else { T_MP = false };
 
 if (isServer) then
